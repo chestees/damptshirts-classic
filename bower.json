@@ -1,0 +1,23 @@
+{
+  "name": "damptshirts",
+  "version": "0.0.0",
+  "homepage": "https://github.com/chestees/damptshirts-net",
+  "authors": [
+    "jdiehl@jasondiehl.com"
+  ],
+  "main": "index.aspx",
+  "license": "MIT",
+  "ignore": [],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "handlebars": "~3.0.3",
+    "jquery": "~1.11.0",
+    "jquery-bridget": "~1.1.0",
+    "masonry": "~3.3.2",
+    "moment": "~2.8.3",
+    "requirejs": "~2.1.11",
+    "requirejs-text": "~2.0.10",
+    "underscore": "~1.7.0",
+    "velocity": "~1.1.*"
+  }
+}

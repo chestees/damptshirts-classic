@@ -1,0 +1,18 @@
+<div class="product {{ dampId }}">
+	<a class="product-link" href="/t-shirts/detail/{{ dampId }}/{{ slug }}">
+		<img class="product-image" alt="{{ title }}" title="{{ title }}" src="{{ image }}">
+	</a>
+	<!-- if( myCookie != null ) DidTheyVote( intThumbs, myCookie ) || showThumbs == 'True') { -->
+	<div class="thumbs" data-id="{{ dampId }}">
+		<span class="badge vote-count">{{ thumbs }} votes</span>
+		<div class="thumbs-info">
+			<div class="btn btn-danger vote-down">
+				<span class="txt">Meh</span>
+			</div>
+			<div class="btn btn-primary l_margin_5 vote-up">
+				<span class="txt">Like</span>
+			</div>
+			<div class="date-added">{{ formatDate dateAdded 'fromNow' }}</div>
+		</div>
+	</div>
+</div>
